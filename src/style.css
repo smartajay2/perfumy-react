@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+nav
+{
+  background-color: black;
+  color: white;
+  padding: 25px;
+}
+
+li,h1,ul
+{
+       
+  display: inline;
+}
+ul
+{
+  margin-left: 60%;
+
+
+}
+
+
+li{
+  color: gray;
+  cursor: pointer;
+
+}
+
+
+li:hover{
+  color: white;
+
+}
+
+
+input{
+  width: 60%;
+  padding: 15px;
+}
+
+.Searchbar{
+  padding: 50px;
+  text-align: center;
+}
+
+
+
+.box{
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-style: solid;
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+
+  
+}
+img{
+  width: 200px;
+  padding: 25px;
+  margin: 30px;
+  height: 150px;
+ 
+
+}
+
+.Products{
+text-align: center;
+cursor: pointer;
+}
+
+.About{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Details{
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.box:hover{
+  color: black;
+
+
+}
+
+.box:active{
+  
+  color: gray;
+  background-color: black;
+
+}
